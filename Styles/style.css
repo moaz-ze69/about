@@ -89,7 +89,7 @@
 .moaz-image {
     padding: 2rem 0;
     border-radius: 100rem;
-    width: 15rem;
+    width: 10rem;
 }
 
 @media (max-width: 1049px) {
@@ -107,6 +107,26 @@
 @media (max-width: 725px) {
     .div-about {
       padding: 5rem 8rem;
+    }
+
+    .class-hill-image {
+        width: 15rem;
+    }
+}
+
+@media (max-width: 262px) {
+    .class-hill-image {
+        width: 10rem;
+    }
+
+    #name {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 499px) {
+    .div-about {
+      padding: 5rem 1rem;
     }
 }
 
